@@ -6,6 +6,7 @@ import {
   AppstoreOutlined,
   SettingOutlined,
 } from '@ant-design/icons';
+import { Link } from 'react-router-dom';
 
 
 const { SubMenu } = Menu;
@@ -28,11 +29,11 @@ class Navbar extends Component {
       <Menu onClick={this.handleClick} selectedKeys={[this.state.current]} mode="horizontal">
         <Menu.Item key="mail">
           <MailOutlined />
-          Profile
+            <Link to="/">Profile</Link> 
         </Menu.Item>
         <Menu.Item key="app">
           <AppstoreOutlined />
-          Portofolio
+          <Link to="/portofolio">About Me</Link>
         </Menu.Item>
         <SubMenu
           title={
@@ -43,8 +44,8 @@ class Navbar extends Component {
           }
         >
           <Menu.ItemGroup title="My Hobbies">
-            <Menu.Item key="galigo">Drawing and Painting</Menu.Item>
-            <Menu.Item key="kopma">Scroll Twitter</Menu.Item>
+            <Menu.Item key="UKM">Drawing and Painting</Menu.Item>
+            <Menu.Item key="Hobi">Scroll Twitter</Menu.Item>
           </Menu.ItemGroup>
         </SubMenu>
         <Menu.Item key="alipay">

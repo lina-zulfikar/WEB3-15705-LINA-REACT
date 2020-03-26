@@ -15,7 +15,7 @@ class LandingComponent extends Component{
         */}
         return(
             <Layout className="landing-container">
-                <Navbar/>  {/* ini merupakan component navbar yang kita import dari folder layout yang ada di common*/}
+                {/* ini merupakan component navbar yang kita import dari folder layout yang ada di common*/}
                 <Content style={{ overflow: "hidden" }}> {/* ini merupakan component content yang sudah di define sebelumnya*/}
                     <Row className="section-container">
                         <Col lg={12} md={12} sm={12}>
@@ -31,7 +31,7 @@ class LandingComponent extends Component{
                             <Row>
                                 <Col span={24}>
                                     <div className="title-container">
-                                        <span className="text-soft-blue title-biggest bold">Annyeong, I'am</span>
+                                        <span className="text-soft-blue title-biggest bold">Annyeong! I'm</span>
                                         <br/>
                                         <span className="text-soft-blue title-big bold">Lina Zulfikar</span>
                                     </div>
@@ -45,7 +45,7 @@ class LandingComponent extends Component{
                                         />
                                     </div>
                                     <div className="description-container desc-medium">
-                                        Seluruh kota merupakan tempat bermain yang asyik.
+                                        Seluruh kota merupakan tempat bermain yang asik.
                                         
                                     </div>
                                 </Col>
@@ -73,7 +73,7 @@ class LandingComponent extends Component{
                                     onCancel={handleCancel}
                                     className = "modal-notif"
                                     >
-                                    <p className="text-notif">Hubungi Saya ke linazulfikar99@mail.ugm.ac.id</p>
+                                    <p className="text-notif">Hubungi Saya di linazulfikar99@mail.ugm.ac.id</p>
                                 </Modal>{/* ini merupakan modal yang didalamnya memuat beberapa fungsi yang sudah di definisikan di atas sebagai this.props*/}
                             </Row>
                         </Col>  
