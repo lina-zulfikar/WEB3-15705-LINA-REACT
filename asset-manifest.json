@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/WEB3-15705-LINA-REACT/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/WEB3-15705-LINA-REACT/static/js/main.f771c1c1.chunk.js",
-    "main.js.map": "/WEB3-15705-LINA-REACT/static/js/main.f771c1c1.chunk.js.map",
-    "runtime-main.js": "/WEB3-15705-LINA-REACT/static/js/runtime-main.d77be4d3.js",
-    "runtime-main.js.map": "/WEB3-15705-LINA-REACT/static/js/runtime-main.d77be4d3.js.map",
-    "static/css/2.47e06e2e.chunk.css": "/WEB3-15705-LINA-REACT/static/css/2.47e06e2e.chunk.css",
-    "static/js/2.00d18898.chunk.js": "/WEB3-15705-LINA-REACT/static/js/2.00d18898.chunk.js",
-    "static/js/2.00d18898.chunk.js.map": "/WEB3-15705-LINA-REACT/static/js/2.00d18898.chunk.js.map",
-    "index.html": "/WEB3-15705-LINA-REACT/index.html",
-    "precache-manifest.824e1f85f7aae057789b64a8c6040c59.js": "/WEB3-15705-LINA-REACT/precache-manifest.824e1f85f7aae057789b64a8c6040c59.js",
-    "service-worker.js": "/WEB3-15705-LINA-REACT/service-worker.js",
-    "static/css/2.47e06e2e.chunk.css.map": "/WEB3-15705-LINA-REACT/static/css/2.47e06e2e.chunk.css.map",
-    "static/css/main.5ecd60fb.chunk.css.map": "/WEB3-15705-LINA-REACT/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.00d18898.chunk.js.LICENSE.txt": "/WEB3-15705-LINA-REACT/static/js/2.00d18898.chunk.js.LICENSE.txt"
+    "main.css": "/uts-linazulfikar/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/uts-linazulfikar/static/js/main.2185eb49.chunk.js",
+    "main.js.map": "/uts-linazulfikar/static/js/main.2185eb49.chunk.js.map",
+    "runtime-main.js": "/uts-linazulfikar/static/js/runtime-main.8e5fdcfb.js",
+    "runtime-main.js.map": "/uts-linazulfikar/static/js/runtime-main.8e5fdcfb.js.map",
+    "static/css/2.47e06e2e.chunk.css": "/uts-linazulfikar/static/css/2.47e06e2e.chunk.css",
+    "static/js/2.00d18898.chunk.js": "/uts-linazulfikar/static/js/2.00d18898.chunk.js",
+    "static/js/2.00d18898.chunk.js.map": "/uts-linazulfikar/static/js/2.00d18898.chunk.js.map",
+    "index.html": "/uts-linazulfikar/index.html",
+    "precache-manifest.85ac755150af8b726943d95fefc56334.js": "/uts-linazulfikar/precache-manifest.85ac755150af8b726943d95fefc56334.js",
+    "service-worker.js": "/uts-linazulfikar/service-worker.js",
+    "static/css/2.47e06e2e.chunk.css.map": "/uts-linazulfikar/static/css/2.47e06e2e.chunk.css.map",
+    "static/css/main.5ecd60fb.chunk.css.map": "/uts-linazulfikar/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.00d18898.chunk.js.LICENSE.txt": "/uts-linazulfikar/static/js/2.00d18898.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d77be4d3.js",
+    "static/js/runtime-main.8e5fdcfb.js",
     "static/css/2.47e06e2e.chunk.css",
     "static/js/2.00d18898.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.f771c1c1.chunk.js"
+    "static/js/main.2185eb49.chunk.js"
   ]
 }
