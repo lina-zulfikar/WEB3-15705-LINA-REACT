@@ -1,22 +1,39 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import {BrowserRouter} from "react-router-dom";
-import '../src/assets/css/App.css';
-import Navbar from './common/layout/navbar-landing';
-import Routing from './common/router/router'
+//Nama : Lina Zulfikar
+//NIM : 18/431734/SV/15705
+import {
+  BrowserRouter,
+  Route,
+  Switch,
+} from "react-router-dom";
+import Header from "./Header";
+import Blog from "./Blog";
+import BlogDetail from "./BlogDetail";
+import React, { Component }  from 'react';
+//install bootstrap dulu
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-class App extends React.Component {
-  
-
-  render(){
-    return (
+// Ini merupakan functional component
+// https://getbootstrap.com/docs/4.4/examples/navbar-static/
+function App() {
+  return (
+    <BrowserRouter>
       <div className="App">
-        <Navbar/>
-        <Routing/>
+        <Header />
+        <Switch>
+          <Route path="/about">
+            About
+          </Route>
+          <Route path="/blog/:articleId" component={BlogDetail} />
+          <Route path="/blog">
+            <Blog />
+          </Route>
+          <Route path="/">
+            Home
+          </Route>
+        </Switch>
       </div>
-    );
-  }
-  
+    </BrowserRouter>
+  );
 }
 
 export default App;
